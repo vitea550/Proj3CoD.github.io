@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-image: url('bghomev1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Content styling for better visibility 
+.content {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+*/
+
+
+a{
+    color: #F6830F;
+
+}
+
+.title {
+    color: coral;
+    text-align: center;
+    font-size: 3em;
+    transition: transform 0.3s ease;
+    text-shadow: 2px 2px 2px #FF0000;
+
+
+}
+
+
+.nav-footer{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin: 20px;
+
+}
+
+.usabutton:hover{
+    transform: scale(1.02);
+    transition: scale ease-in-out 0.3s;
+}
+
+.worldbutton:hover{
+    transform: scale(1.02);
+    transition: scale ease-in-out 0.3s;
+}
+
+
+
+.idle-animation {
+  animation: rock 2s infinite alternate;
+}
+
+@keyframes rock {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+
+

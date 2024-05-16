@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC vs. The World (Causes of Death) - USA</title>
+    <link rel="stylesheet" href="usa1style.css">
+    <link rel="icon" href="crossbones.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+<div class="worldbutton">
+       <!-- <h1><a href="world1.html">vs the World →</a></h1> -->
+        <h1><a href="index.html">HOME → </a></h1>
+            </div>
+
+       <div class="title-container">
+        <h1 class="glowing-title">Leading Causes of Death: NYC vs <em>the USA</em></h1>
+        <h3> [click different categories below to compare!] </h3> 
+        <h4> NYC = <em>Left</em> Bar, USA = <em>Right</em> Bar</h4>
+    </div>
+
+
+    <div class="totalgraff" style="display: flex;">
+        <div class="button-wrapper">
+            <div onclick="setProgressBars('heartdisease')">Heart Disease</div>
+            <div onclick="setProgressBars('cancer')">Cancer</div>
+            <div onclick="setProgressBars('covid19')">COVID-19</div>
+            <div onclick="setProgressBars('stroke')">Stroke</div>
+            <div onclick="setProgressBars('accidents')">Accidents</div>
+          </div>
+          <div class="vis-wrapper">
+            <div id="bar-2017">
+                <p> <strong>New York</strong> </p>
+            </div>
+            <div id="bar-2018">
+                <p> <strong> USA </strong></p>
+            </div>
+            
+          </div>
+                <div class="sidebar">
+          <p> #1 </p>
+          <p> #2</p>
+          <p> #3</p>
+          <p> #4 </p>
+          <p> #5 </p>
+                </div>
+
+
+               
+    </div>
+
+
+
+<div class="infobox">
+
+    <h1> ☟ Amount of Deaths per Year (2022) ☟ </h1>
+    <div class="heartd">
+<p> <h3><div onclick="setProgressBars('heartdisease')">Heart Disease</div></h3> </div><strong>New York City</strong>  Deaths: 30,000 (#1), <strong>World </strong> Deaths: 19.1 million (#1) </p>
+
+    <div class="cancerd">
+<p> <h3><div onclick="setProgressBars('cancer')">CANCER </div></h3></div><strong>New York City </strong>Deaths: 32,655 (#2), <strong>World </strong>Deaths: 9.7 million (#2)</p>
+
+    <div class="covidd">
+<p> <h3><div onclick="setProgressBars('covid19')">COVID-19 </div></h3></div><strong>New York City </strong>Deaths: 11,129 (#3), <strong>World </strong>Deaths: 186,552 (#4)</p>
+
+    <div class="stroked">
+<p> <h3><div onclick="setProgressBars('stroke')">STROKE </div> </h3> </div><strong>New York City </strong>Deaths: 6,605 (#5), <strong>World </strong>Deaths:165,393 (#5)</p>
+
+    <div class="accidentsd">
+<p> <h3><div onclick="setProgressBars('accidents')">ACCIDENTS </div></h3> </div><strong>New York City </strong>Deaths: 10,894 (#4), <strong>World </strong>Deaths: 227,039 (#3)</p>
+
+</div>
+
+
+  <script src="usascript.js"></script>
+
+</body>
+</html>
